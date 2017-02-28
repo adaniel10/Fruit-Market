@@ -64,14 +64,6 @@ public class Checkout {
 		System.out.print("\nPlease enter how many "+fruit+"'s would you like to buy: ");
 		performQuantityCheck();
 		
-		//this loop will repeat itself until the 'userSetQuantity' variable is greater
-		//...than 0.
-//		do
-//		{
-//			userSetQuantity = checkQuantityFormat(in.nextLine());
-//		}
-//		while(userSetQuantity <= 0);
-		
 		System.out.println("You have selected to purchase "+userSetQuantity+" "+fruit+"(s).");
 		accumulateTotalPrice(fruit);
 		
